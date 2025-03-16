@@ -1,27 +1,85 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
+.navigationBar {
+  background-color: #2C3D55;
+  overflow: hidden;
+}
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.navigationBar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  font-size: 17px;
+}
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.navigationBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  background-color: #CFCFCD;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.homepic {
+  height: 400px;
+  width: auto;
+}
+
+.pic {
+  text-align: center;
+}
+
+.rightleft {
+  display: flex;
+  justify-content: space-between; /* Aligns children to opposite ends */
+}
+
+.center {
+  text-align: center;
+}
+
+.centeralign {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Vertically center the items */
+  align-items: center;
+}
+
+.contactText {
+  font-size: 25px;
+}
+
+.inst {
+  height: 40px;
+  width: auto;
+  background-color: #CFCFCD;
+
+}
+
+.linkedin {
+  height: 40px;
+  width: auto;
+  background-color: #CFCFCD;
+}
+
+.gmail {
+  height: 35px;
+  width: auto;
+  background-color: #CFCFCD;
+}
+
+.doit {
+  height: 100px;
+  width: auto;
+}
+
+img {
+  padding: 5px;
+  background-color: #513C2C;
+}
